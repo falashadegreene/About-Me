@@ -1,4 +1,5 @@
 body {
+  
   width: 100%;
   background-color: white; 
 }
@@ -34,9 +35,27 @@ h2 {
 }
 
 footer {
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ECE3F0;
-  width: 200px;  
+ display: flex;
+ justify-content: center;
 }
+
+h3 {
+  padding-bottom: 10px;
+  font-size: large;
+  font-weight: 5px;
+}
+
+.topten, .summarylist {
+  margin-top:65px;
+  margin-left: 50px;
+  margin-right: 2px;
+  background-color: #ECE3F0;
+  width: 200px;
+  display: inline-block;
+  padding: 25px;    
+}
+
+ .summarylist li {
+  list-style-type: square;  
+}
+
