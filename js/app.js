@@ -3,7 +3,7 @@
 /* This script begins with user welcome message */
 
 let userResponse = prompt ('Hey there, what is your name?');
-console.log ('Hey there, what is your name?');
+//console.log ('Hey there, what is your name?');
 alert ('Nice to meet you ' + ', ' + userResponse + '! ' + 'Lets play a guessing game! ');
 
 /* This is where user will be asked 5 yes or no questions */
@@ -11,11 +11,11 @@ alert ('Nice to meet you ' + ', ' + userResponse + '! ' + 'Lets play a guessing 
 let guessOne = prompt ('Do I like music?').toLowerCase();
 
 if (guessOne === 'yes'|| guessOne === 'y'){
-  //console.log ('You are right!');
+//console.log ('You are right!');
   alert ('You are right!');
 
 } else if (guessOne === 'no' || guessOne === 'n'){
-  //console.log ('Actually, I do. Hip hop is my favorite!');
+//console.log ('Actually, I do. Hip hop is my favorite!');
   alert ('Actually, I do. Hip hop is my favorite!');
 
 }
@@ -39,7 +39,7 @@ if (guessThree === 'yes'|| guessThree === 'y') {
   alert ('Yes, but only one sport lol');
 
 } else if (guessThree === 'no' || guessThree === 'n') {
-  console.log ('Sorry, I can. Not professionally tho!');
+  //console.log ('Sorry, I can. Not professionally tho!');
   alert ('Sorry, I can. Not professionally tho!');
 
 }
