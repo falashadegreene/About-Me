@@ -1,11 +1,18 @@
 'use strict';
 
+function guess one (){
 
+}
+guessone();
 let userResponse = prompt ('Hey there, what is your name?');
 //console.log ('Hey there, what is your name?');
 alert ('Nice to meet you ' + ', ' + userResponse + '! ' + 'Lets play a guessing game! ');
 
 /* This is where user will be asked 5 yes or no questions */
+guesstwo(){
+
+}
+guesstwo();
 
 let guessOne = prompt ('Do I like music?').toLowerCase();
 
@@ -30,6 +37,10 @@ if(guessTwo ==='yes' || guessTwo === 'y'){
   alert ('Nope. I have two brothers!');
 
 }
+function guessthree(){
+
+}
+guessThree();
 
 let guessThree = prompt ('Do I know how to play sports?').toLowerCase ();
 
@@ -42,6 +53,10 @@ if (guessThree === 'yes'|| guessThree === 'y') {
   alert ('Sorry, I can. Not professionally tho!');
 
 }
+function guessfour(){
+
+}
+guessfour();
 
 let guessFour = prompt ('Have I zipped lined before?').toLowerCase();
 
@@ -54,7 +69,11 @@ if (guessFour === 'yes' || guessFour === 'y') {
   alert ('Sorry, I actually have zipped lined before ');
 
 }
+function guessfive(){
 
+}
+
+guessfive();
 let guessFive = prompt ('Do I have any pets?').toLowerCase ();
 
 if (guessFive === 'yes' || guessFive === 'y') {
