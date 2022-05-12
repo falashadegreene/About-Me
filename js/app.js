@@ -1,6 +1,5 @@
 'use strict';
 
-/* This script begins with user welcome message */
 
 let userResponse = prompt ('Hey there, what is your name?');
 //console.log ('Hey there, what is your name?');
@@ -66,5 +65,51 @@ if (guessFive === 'yes' || guessFive === 'y') {
   //console.log ('Sorry, I have a cat. Trust me she is friendly!');
   alert ('Sorry, I have a cat. Trust me she is friendly!');
 
+
+
+
+let answer = '4';
+let guessSix = prompt ('How many plants do I have?');
+for (let i=0; i<4; i ++);
+if (guessSix === answer) {
+  alert ('You are correct!');
+} else if (guessSix > '4') {
+  alert ('too high. Try again!');
+
+} else if (guessSix < '4') {
+  alert ('too low. Try again!');
 }
+
+
+
+let = prompt('What is Sade \'s favorite color?').toLowerCase();
+console.log (answer);
+
+
+let colors = ['blue', 'purple', 'green', 'pink'];
+
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
